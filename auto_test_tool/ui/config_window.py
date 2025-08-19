@@ -3,7 +3,7 @@
 
 from PyQt5.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
                              QScrollArea, QPushButton, QMessageBox, QFileDialog,
-                             QApplication, QTabWidget, QTextEdit)
+                             QApplication, QTabWidget, QTextEdit, QLabel)
 from PyQt5.QtCore import Qt, pyqtSignal
 from typing import Dict, List, Tuple
 from .widgets import (FileConfigListWidget, GroupBoxWidget, LabeledLineEdit, 
